@@ -391,6 +391,19 @@
     "@react-stately/utils" "^3.8.0"
     react-remove-scroll "^2.5.6"
 
+"@nextui-org/progress@^2.0.24":
+  version "2.0.24"
+  resolved "https://registry.yarnpkg.com/@nextui-org/progress/-/progress-2.0.24.tgz#009681d4aa0233f5f62783a35d249a95a6ac1a74"
+  integrity sha512-RPVsFCF8COFClS/8PqEepzryhDFtIcJGQLu/P+qAr7jIDlXizXaBDrp0X34GVtQsapNeE9ExxX9Kt+QIspuHHQ==
+  dependencies:
+    "@nextui-org/react-utils" "2.0.10"
+    "@nextui-org/shared-utils" "2.0.4"
+    "@nextui-org/use-is-mounted" "2.0.4"
+    "@react-aria/i18n" "^3.8.4"
+    "@react-aria/progress" "^3.4.7"
+    "@react-aria/utils" "^3.21.1"
+    "@react-types/progress" "^3.5.0"
+
 "@nextui-org/react-rsc-utils@2.0.10":
   version "2.0.10"
   resolved "https://registry.yarnpkg.com/@nextui-org/react-rsc-utils/-/react-rsc-utils-2.0.10.tgz#2a20e4b72e6f9dc57efe235a66f1b4a017d94cbb"
@@ -562,6 +575,11 @@
   resolved "https://registry.yarnpkg.com/@nextui-org/use-clipboard/-/use-clipboard-2.0.4.tgz#49439ca60368fc70711b4b3ded019c745f38f1ec"
   integrity sha512-rMcaX0QsolOJ1BQbp1T/FVsSPn2m0Ss4Z+bbdS7eM6EFKtJdVJWlpbrST0/kR2UcW1KWeK27NYmtNPF5+hgZMA==
 
+"@nextui-org/use-is-mounted@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@nextui-org/use-is-mounted/-/use-is-mounted-2.0.4.tgz#ad08001c9a64f399b0df763458a8ddc581022892"
+  integrity sha512-NSQwQjg8+k02GVov9cDwtAdop1Cr90eDgB0MAdvu7QCMgfBZjy88IdQnx3Yo7bG4wP45xC0vLjqDBanaK+11hw==
+
 "@nextui-org/use-scroll-position@2.0.4":
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@nextui-org/use-scroll-position/-/use-scroll-position-2.0.4.tgz#9d4f83c88381969267a1ae8faf1c8b0f4e3af9d3"
@@ -687,6 +705,18 @@
     "@react-stately/overlays" "^3.6.5"
     "@react-types/button" "^3.9.2"
     "@react-types/overlays" "^3.8.5"
+    "@react-types/shared" "^3.22.1"
+    "@swc/helpers" "^0.5.0"
+
+"@react-aria/progress@^3.4.7":
+  version "3.4.11"
+  resolved "https://registry.yarnpkg.com/@react-aria/progress/-/progress-3.4.11.tgz#7416efd8ff8fa3cd461e6a1b4f3f5c3a68e64d4a"
+  integrity sha512-RePHbS15/KYFiApYLdwazwvWKsB9q0Kn5DGCSb0hqCC+k2Eui8iVVOsegswiP+xqkk/TiUCIkBEw22W3Az4kTg==
+  dependencies:
+    "@react-aria/i18n" "^3.10.2"
+    "@react-aria/label" "^3.7.6"
+    "@react-aria/utils" "^3.23.2"
+    "@react-types/progress" "^3.5.2"
     "@react-types/shared" "^3.22.1"
     "@swc/helpers" "^0.5.0"
 
@@ -843,6 +873,13 @@
   version "3.8.5"
   resolved "https://registry.yarnpkg.com/@react-types/overlays/-/overlays-3.8.5.tgz#2dbee3ab6e5ff87d4bd443468ef7c2c6d63b5383"
   integrity sha512-4D7EEBQigD/m8hE68Ys8eloyyZFHHduqykSIgINJ0edmo0jygRbWlTwuhWFR9USgSP4dK54duN0Mvq0m4HEVEw==
+  dependencies:
+    "@react-types/shared" "^3.22.1"
+
+"@react-types/progress@^3.5.0", "@react-types/progress@^3.5.2":
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/@react-types/progress/-/progress-3.5.2.tgz#d71dce4c4ae9623faf0f5599ef38fd0c94874c7e"
+  integrity sha512-aQql22kusEudsHwDEzq6y/Mh29AM+ftRDKdS5E5g4MkCY5J4FMbOYco1T5So83NIvvG9+eKcxPoJUMjQQACAyA==
   dependencies:
     "@react-types/shared" "^3.22.1"
 

@@ -362,7 +362,8 @@
             "awarder": "TUM",
             "date": "2021-09",
             "title": "Deutschlandstipendium holder",
-            "summary": "I was chosen to be a scholar of the Deutschlandstipendium."
+            "summary": "I was chosen to be a scholar of the Deutschlandstipendium.",
+            "image": "https://www.deutschlandstipendium.de/SiteGlobals/Frontend/Images/icons/deutschlandstipendium/logo-deutschlandstipendium.jpg"
         },
         {
             "title": "Awardee of the final run of the 38th BWInf",
@@ -383,14 +384,16 @@
             "awarder": "Mathematik-Olympiaden e.V.",
             "date": "2018-06",
             "url": "https://mo2018.de/teilnehmende",
-            "summary": "Participation in the national mathematics olympiad"
+            "summary": "Participation in the national mathematics olympiad",
+            "image":"https://www.mathematik-olympiaden.de/moev/images/my/logo_202.png"
         },
         {
             "title": "Jugend trainiert Mathematik",
             "awarder": "Bundesweite Mathematikwettbewerbe",
             "date": "2014",
             "summary": "Participation in a program to train young mathematicians, consisting of two seminars per year and monthly exercise sheets",
-            "url": "https://www.mathe-wettbewerbe.de/jugend-trainiert-mathematik"
+            "url": "https://www.mathe-wettbewerbe.de/jugend-trainiert-mathematik",
+            "image": "https://www.mathe-wettbewerbe.de/assets/img/layout/header/M_Logo.svg"
         }
     ],
     "skills": [
