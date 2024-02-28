@@ -592,27 +592,39 @@
     ],
     "publications": [
         {
-            "url": "https://raw.githubusercontent.com/peteole/blog/main/openfoam_gmsh_2d_aerofoil/index.md",
+            "url": "https://peteole.github.io/blog/openfoam_gmsh_2d_aerofoil/index.html",
             "type": "blog",
-            "releaseDate": "2022-12"
+            "releaseDate": "2022-12",
+            "name": "OpenFOAM and Gmsh: 2D Aerofoil",
+            "summary": "In this tutorial, I will show from end to end how to do a 2d CFD simulation of an aerofoil including the generation of the geometry, the meshing using gmsh and the simulation using OpenFoam."
         },
         {
-            "url": "https://raw.githubusercontent.com/peteole/blog/main/huddle_ory_authentication/index.md",
+            "url": "https://peteole.github.io/blog/huddle_ory_authentication/index.html",
             "type": "blog",
             "name": "Huddle: Authentication with ORY",
-            "releaseDate": "2022-05"
+            "releaseDate": "2022-05",
+            "summary": "In this series, we are exploring the steps we took to build a student project platform where students can share their sideprojects and explore what their peers are doing. After looking at the architecture of our GraphQL backend and how we consume it in a typesafe way, we will take a deeper dive into authentication"
         },
         {
-            "url": "https://raw.githubusercontent.com/peteole/blog/main/huddle_gql_client/index.md",
+            "url": "https://peteole.github.io/blog/huddle_gql_client/index.html",
             "type": "blog",
             "name": "Huddle: Type safe GraphQL Client",
-            "releaseDate": "2022-04"
+            "releaseDate": "2022-04",
+            "summary": "After explaining how we built our student project graphql API in a typesafe way, we will continue by having a look at the client side. In terms of technology we use React (typescript) with the Apollo GraphQL Client as well as a code generator for type safety."
         },
         {
-            "url": "https://raw.githubusercontent.com/peteole/blog/main/huddle_gql_server/index.md",
+            "url": "https://peteole.github.io/blog/huddle_gql_server/index.html",
             "type": "blog",
             "name": "Huddle: GraphQL Server",
-            "releaseDate": "2022-03"
+            "releaseDate": "2022-03",
+            "summary": "I started my studies at university in times of Covid. With limited contact to other students, but lots of ideas for side projects, I often dreamed of a platform to share such project ideas on and check out what existing student projects do (it turned out there are actually pretty many of them who do really cool stuff but nobody knows about). This is how it looks like:"
+        },
+        {
+            "url": "https://peteole.github.io/blog/martingale_analysis/index.html",
+            "type": "blog",
+            "name": "Simulating the Martingale betting strategy",
+            "releaseDate": "2024-02",
+            "summary": "In this tutorial, I will show from end to end how to do a 2d CFD simulation of an aerofoil including the generation of the geometry, the meshing using gmsh and the simulation using OpenFoam."
         }
     ]
 }
