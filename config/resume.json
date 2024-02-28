@@ -308,7 +308,8 @@
             "description": "Student internship, getting to know the basics of CFD",
             "startDate": "2018-01",
             "endDate": "2018-02",
-            "url": "https://www.dlr.de/content/de/institutspraesentation/institut-fuer-aerodynamik-und-stroemungstechnik.html"
+            "url": "https://www.dlr.de/en",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/DLR_Logo.svg/1433px-DLR_Logo.svg.png"
         }
     ],
     "volunteer": [
@@ -322,8 +323,9 @@
         {
             "organization": "TUM",
             "position": "Founder",
-            "url": "https://huddle.hsg.fs.tum.de",
+            "url": "https://gitlab.lrz.de/projecthub",
             "startDate": "2021-02",
+            "endDate": "2023-09",
             "summary": "Founding of a student group developing a platform that allows students to find their next student group"
         },
         {

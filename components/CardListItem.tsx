@@ -40,7 +40,7 @@ const CardListItem: React.FC<CardListItemProps> = (props) => {
                 </div>
             </CardHeader>
 
-            <CardBody className="overflow-hidden py-0">
+            <CardBody className="overflow-y-auto py-0">
                 {props.url && src && <Link target="blank" href={props.url}><Image
                     alt="Card background"
                     className="rounded-xl mx-auto"
@@ -48,7 +48,7 @@ const CardListItem: React.FC<CardListItemProps> = (props) => {
                     style={{ objectFit: "cover", height: 100 }}
                     height={100}
                     width={250} /></Link>}
-                <p className="text-sm">{props.description}</p>
+                {props.description?.split("\n").map((line, index) => <p key={index} className="text-sm">{line}</p>)}
                 {props.demo && <Button target="blank" as={Link} href={props.demo} color="primary" size="sm" className="w-fit m-auto">View Demo</Button>}
             </CardBody>
         </Card>
