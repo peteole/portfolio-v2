@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function DocsPage() {
 	return (
 		<div>
-			<p><Button as={Link} color="primary" href="/cv.pdf">Click hereownload my CV</Button></p>
+			<p><Button as={Link} color="primary" href="/cv.pdf">Click here to download my CV</Button></p>
 		</div>
 	);
 }
