@@ -10,7 +10,7 @@ import {
 } from "@nextui-org/navbar";
 import { Link } from "@nextui-org/link";
 
-import { link as linkStyles } from "@nextui-org/theme";
+import { link as linkStyles, semanticColors } from "@nextui-org/theme";
 
 import { siteConfig } from "@/config/site";
 import NextLink from "next/link";
@@ -26,10 +26,8 @@ import { useState } from "react";
 import { useTheme } from "next-themes";
 
 export const Navbar = () => {
-	const {theme}=useTheme();
 	const pathname = usePathname();
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
-	const socialIconColor=theme==="dark"?"white":"black";
 
 	return (
 		<NextUINavbar maxWidth="xl" position="sticky" isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
@@ -58,7 +56,7 @@ export const Navbar = () => {
 			>
 				<NavbarItem className="hidden sm:flex gap-2">
 					{resume.basics?.profiles?.map((profile, index) => (
-						<SocialIcon key={profile.url} url={profile.url} fgColor={socialIconColor} bgColor="transparent"/>
+						<SocialIcon key={profile.url} url={profile.url} fgColor="hsl(var(--nextui-default-500))" bgColor="transparent"/>
 					))}
 
 					<ThemeSwitch />
@@ -66,7 +64,7 @@ export const Navbar = () => {
 			</NavbarContent>
 			<NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
 				{resume.basics?.profiles?.map((profile, index) => (
-					<SocialIcon key={profile.url} url={profile.url} fgColor={socialIconColor} bgColor="transparent" />
+					<SocialIcon key={profile.url} url={profile.url} fgColor="hsl(var(--nextui-default-500))" bgColor="transparent" />
 				))}
 				<ThemeSwitch />
 				<NavbarMenuToggle />

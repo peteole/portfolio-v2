@@ -21,7 +21,6 @@ function findUrls(obj) {
 }
 
 (async () => {
-    console.log(await ogs({url:"https://www.instagram.com/h7_jet"}))
     const urls = findUrls(resume);
     console.log(urls);
     const responses = await Promise.all(urls.map(async url => {

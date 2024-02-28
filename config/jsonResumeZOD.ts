@@ -205,6 +205,7 @@ export const schema = z
               .string()
               .describe("grade point average, e.g. 3.67/4.0")
               .optional(),
+            image: z.string().url().optional(),
             courses: z
               .array(
                 z
@@ -230,6 +231,7 @@ export const schema = z
               .string()
               .describe("e.g. Time Magazine")
               .optional(),
+            image: z.string().url().optional(),
             summary: z
               .string()
               .describe("e.g. Received for my work with Quantum Physics")
@@ -386,6 +388,7 @@ export const schema = z
                 "Short summary of project. e.g. Collated works of 2017."
               )
               .optional(),
+            image: z.string().url().optional(),
             highlights: z
               .array(
                 z

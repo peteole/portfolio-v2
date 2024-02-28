@@ -15,7 +15,8 @@ export default function AboutPage() {
 				startDate: p.startDate,
 				endDate: p.endDate,
 				entity:p.entity,
-				demo: p.demo
+				demo: p.demo,
+				image:p.image
 			}))}/>
 		</div>
 	);

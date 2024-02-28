@@ -6,6 +6,7 @@ import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import resume from "@/config/resume";
 import Card from "@/components/CardListItem";
+import CardList from "@/components/CardList";
 
 export default function Home() {
 	return (
@@ -14,7 +15,17 @@ export default function Home() {
 				<h1 className={title()}>Hi, I am {resume.basics?.name}</h1>
 				{resume.basics.summary && <p>{resume.basics?.summary}</p>}
 			</>}
-			<Card title="Projects" url="https://github.com/peteole" tags={["react", "telegram"]}/>
+			<h1 className={subtitle()}>Education</h1>
+			<CardList items={resume.education?.map(e=>({
+				title: e.area?(e.studyType?`${e.studyType} in ${e.area}`:e.area):e.studyType ||"",
+				startDate: e.startDate,
+				endDate: e.endDate,
+				entity: e.institution,
+				tags: e.courses,
+				url: e.url,
+				description: e.score&&`Score: ${e.score}`,
+				image:e.image
+			}))}/>
 
 		</section>
 	);

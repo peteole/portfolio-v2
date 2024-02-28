@@ -30,7 +30,8 @@
             "area": "Computational Science and Engineering",
             "url": "https://www.cit.tum.de/en/cit/studies/degree-programs/master-computational-science-engineering",
             "startDate": "2023-10",
-            "endDate": "2025-10"
+            "endDate": "2025-10",
+            "score": "1.4 (1.0-5.0 scale)"
         },
         {
             "institution": "Technical University of Munich",
@@ -83,7 +84,8 @@
                 "Mathematics",
                 "Physics",
                 "English"
-            ]
+            ],
+            "url": "https://www.gymnasium-oberstadt.de"
         }
     ],
     "projects": [
@@ -189,7 +191,8 @@
                 "Aerospace",
                 "Engineering"
             ],
-            "demo":"https://photos.app.goo.gl/oCmr1LBJdxNVH1DR8"
+            "demo":"https://photos.app.goo.gl/oCmr1LBJdxNVH1DR8",
+            "image": "https://lh3.googleusercontent.com/pw/AP1GczNT_HzBmEv-8RcP5aku2V-fwJqTYu9ForcS2QdSHRQxca49DWvpkEeVPKqTu046pKWERVXfZK5gjqNplVJ-icS1sb0XjW33ND_Fb3gF9_sffiVNzIO8L13VpAzBqYJ1g0CcHW-Uahu5pElnl1qjxG87NQ=w2582-h1936-s-no-gm?authuser=0"
         },
         {
             "name": "Flight Data Telemetry for RC Airplanes",

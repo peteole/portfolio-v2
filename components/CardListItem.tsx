@@ -15,12 +15,13 @@ export type CardListItemProps = {
     endDate?: string;
     entity?: string;
     demo?: string;
+    image?: string;
 }
 const CardListItem: React.FC<CardListItemProps> = (props) => {
     const urlSrc = props.url && (imageUrls as any)[props.url];
     const demoSrc = props.demo && (imageUrls as any)[props.demo];
-    const src = urlSrc || demoSrc;
-    console.log(props.title,": ", src);
+    const src = props.image || urlSrc || demoSrc;
+    console.log(props.title, ": ", src);
     return (
         <Card className="py-4 h-80 pt-0 w-80">
             <CardHeader>
