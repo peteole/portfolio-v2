@@ -8,10 +8,7 @@ import {
 	NavbarItem,
 	NavbarMenuItem,
 } from "@nextui-org/navbar";
-import { Button } from "@nextui-org/button";
-import { Kbd } from "@nextui-org/kbd";
 import { Link } from "@nextui-org/link";
-import { Input } from "@nextui-org/input";
 
 import { link as linkStyles } from "@nextui-org/theme";
 
@@ -20,28 +17,26 @@ import NextLink from "next/link";
 import clsx from "clsx";
 
 import { ThemeSwitch } from "@/components/theme-switch";
-import {
-	TwitterIcon,
-	GithubIcon,
-	DiscordIcon,
-	HeartFilledIcon,
-	SearchIcon,
-} from "@/components/icons";
+import { SocialIcon } from "react-social-icons";
+import resume from "@/config/resume";
 
 import { Logo } from "@/components/icons";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { useTheme } from "next-themes";
 
 export const Navbar = () => {
-	const pathname=usePathname();
-	const [isMenuOpen, setIsMenuOpen]=useState(false);
+	const {theme}=useTheme();
+	const pathname = usePathname();
+	const [isMenuOpen, setIsMenuOpen] = useState(false);
+	const socialIconColor=theme==="dark"?"white":"black";
 
 	return (
 		<NextUINavbar maxWidth="xl" position="sticky" isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
 			<NavbarContent className="basis-1/5 sm:basis-full" justify="start">
 				<ul className="hidden sm:flex gap-4 justify-start ml-2">
-					{siteConfig.navItems.map((item,i) => (
-						<NavbarItem key={item.href} isActive={item.href===pathname}>
+					{siteConfig.navItems.map((item, i) => (
+						<NavbarItem key={item.href} isActive={item.href === pathname}>
 							<NextLink
 								className={clsx(
 									linkStyles({ color: "foreground" }),
@@ -62,16 +57,17 @@ export const Navbar = () => {
 				justify="end"
 			>
 				<NavbarItem className="hidden sm:flex gap-2">
-					<Link isExternal href={siteConfig.links.github} aria-label="Github">
-						<GithubIcon className="text-default-500" />
-					</Link>
+					{resume.basics?.profiles?.map((profile, index) => (
+						<SocialIcon key={profile.url} url={profile.url} fgColor={socialIconColor} bgColor="transparent"/>
+					))}
+
 					<ThemeSwitch />
 				</NavbarItem>
 			</NavbarContent>
 			<NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-				<Link isExternal href={siteConfig.links.github} aria-label="Github">
-					<GithubIcon className="text-default-500" />
-				</Link>
+				{resume.basics?.profiles?.map((profile, index) => (
+					<SocialIcon key={profile.url} url={profile.url} fgColor={socialIconColor} bgColor="transparent" />
+				))}
 				<ThemeSwitch />
 				<NavbarMenuToggle />
 			</NavbarContent>
@@ -82,7 +78,7 @@ export const Navbar = () => {
 						<NavbarMenuItem key={`${item}-${index}`}>
 							<Link
 								color={
-									item.href===pathname? "primary":"foreground"
+									item.href === pathname ? "primary" : "foreground"
 								}
 								href={item.href}
 								size="lg"
