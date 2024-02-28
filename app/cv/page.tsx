@@ -1,9 +1,11 @@
 import { title } from "@/components/primitives";
+import { Button } from "@nextui-org/button";
+import Link from "next/link";
 
 export default function DocsPage() {
 	return (
 		<div>
-			<h1 className={title()}>Docs</h1>
+			<p><Button as={Link} color="primary" href="/cv.pdf">Click hereownload my CV</Button></p>
 		</div>
 	);
 }
