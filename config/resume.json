@@ -398,14 +398,14 @@
     ],
     "skills": [
         {
-            "name": "Golang",
+            "name": "Typescript",
             "level": "Advanced",
             "keywords": [
                 "programming"
             ]
         },
         {
-            "name": "Typescript",
+            "name": "Golang",
             "level": "Advanced",
             "keywords": [
                 "programming"
@@ -420,7 +420,7 @@
         },
         {
             "name": "Julia",
-            "level": "Intermediate",
+            "level": "Advanced",
             "keywords": [
                 "programming"
             ]
@@ -434,7 +434,7 @@
         },
         {
             "name": "Python",
-            "level": "Intermediate",
+            "level": "Advanced",
             "keywords": [
                 "programming"
             ]
@@ -448,7 +448,7 @@
         },
         {
             "name": "PyTorch",
-            "level": "Intermediate",
+            "level": "Advanced",
             "keywords": [
                 "library",
                 "AI"
