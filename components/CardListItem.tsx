@@ -1,7 +1,7 @@
 import { CardBody, CardHeader, Card } from "@nextui-org/card";
 import { Button } from "@nextui-org/button";
 import * as React from "react";
-import imageUrls from "../config/imageUrls.json";
+import imageUrls from "../config/imageurlsv2s.json";
 import Image from "next/image";
 import { Chip } from "@nextui-org/chip";
 import Link from "next/link";
