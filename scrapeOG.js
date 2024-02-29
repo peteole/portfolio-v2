@@ -44,5 +44,5 @@ function findUrls(obj) {
             }
         }
     }
-    await fs.promises.writeFile('./config/imageURLs.json', JSON.stringify(Object.fromEntries(imageURLs)));
+    await fs.promises.writeFile('./config/imageurls.json', JSON.stringify(Object.fromEntries(imageURLs)));
 })();
