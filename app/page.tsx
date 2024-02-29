@@ -45,7 +45,7 @@ export default function Home() {
 			<h1 className="text-center text-2xl">Awards</h1>
 			<CardList items={resume.awards?.map(a => ({
 				title: a.title || "",
-				startDate: a.date,
+				date: a.date,
 				entity: a.awarder,
 				description: a.summary,
 				url: a.url,
