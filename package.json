@@ -47,6 +47,7 @@
   },
   "devDependencies": {
     "@types/jsdom": "^21.1.6",
+    "json-loader": "^0.5.7",
     "open-graph-scraper": "^6.4.0"
   }
 }
