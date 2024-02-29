@@ -318,7 +318,8 @@
             "url": "https://www.studierendenwerk-muenchen-oberbayern.de/kultur/tutorenprogramm/",
             "position": "Tutor",
             "startDate": "2023-04",
-            "summary": "Organization of student events in my dormitory"
+            "summary": "Organization of student events in my dormitory",
+            "image":"https://static.hochschulhaus-garching.de/gfx/header/hhglogo.png"
         },
         {
             "organization": "TUM",
