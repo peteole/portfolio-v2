@@ -624,7 +624,7 @@
             "type": "blog",
             "name": "Simulating the Martingale betting strategy",
             "releaseDate": "2024-02",
-            "summary": "In this tutorial, I will show from end to end how to do a 2d CFD simulation of an aerofoil including the generation of the geometry, the meshing using gmsh and the simulation using OpenFoam."
+            "summary": "Imagine you are in a casino with your best friend and your life savings, playing roulette. Your friend has an awesome idea: “Let’s always bet on red, so we win with a 50% chance in each round. If we lose, we double our bet in the next round until we win. Once we win, we have made back all our losses and we start over with our initial bet. We can’t lose!”"
         }
     ]
 }
