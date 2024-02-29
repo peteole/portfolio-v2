@@ -405,7 +405,6 @@ export const schema = z
             endDate: z.any().optional(),
             url: z
               .string()
-              .url()
               .describe(
                 "e.g. http://www.computer.org/csdl/mags/co/1996/10/rx069-abs.html"
               )

@@ -90,10 +90,10 @@
     ],
     "projects": [
         {
-            "name": "Bachelor Thesis in Reinforcement Learning",
+            "name": "Bachelor Thesis in Multi-Agent Reinforcement Learning",
             "startDate": "2023-05",
             "endDate": "2023-10",
-            "description": "Employed Multi-Agent Reinforcement Learning on a financial model, found new Nash equilibria",
+            "description": "Employed Multi-Agent Reinforcement Learning on a financial model to find Nash equilibria",
             "entity": "TUM",
             "type": "thesis",
             "roles": [
@@ -107,7 +107,8 @@
                 "Python",
                 "PyTorch",
                 "Financial modelling"
-            ]
+            ],
+            "url": "/petersen-bachelor-thesis.pdf"
         },
         {
             "name": "Probabilistic data integration engine",
