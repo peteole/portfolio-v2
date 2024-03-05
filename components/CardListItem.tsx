@@ -21,7 +21,7 @@ export type CardListItemProps = {
 const CardListItem: React.FC<CardListItemProps> = (props) => {
     const urlSrc = props.url && (imageUrls as any)[props.url];
     const demoSrc = props.demo && (imageUrls as any)[props.demo];
-    const src = props.image || urlSrc || demoSrc;
+    const src = props.image  || demoSrc|| urlSrc;
     console.log(props.title, ": ", src);
     const image=<Image
     alt="Card background"
