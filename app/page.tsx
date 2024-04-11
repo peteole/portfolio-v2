@@ -29,7 +29,7 @@ export default function Home() {
 
 			<h1 className="text-center text-2xl">Experience</h1>
 			<CardList items={resume.work?.map(w => {
-				let text=w.description||""+w.summary||"";
+				let text=(w.description||"")+(w.summary||"");
 				if(w.highlights)
 					text+="\n- "+w.highlights.join("\n- ");
 				return {

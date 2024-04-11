@@ -101,7 +101,12 @@
             "name": "Bachelor Thesis in Multi-Agent Reinforcement Learning",
             "startDate": "2023-05",
             "endDate": "2023-10",
-            "description": "Employed Multi-Agent Reinforcement Learning on a financial model to find Nash equilibria",
+            "highlights": [
+                "Investigated multi-stage oligopoly model, deriving new analytical Nash equilibrium",
+                "Demonstrated convergence of reinforcement learning algorithms to analytical equilibrium strategies",
+                "Discovered and verified new approximate equilibrium in multi-stage oligopoly",
+                "Grade: 1.0"
+            ],
             "entity": "TUM",
             "type": "thesis",
             "roles": [
@@ -200,7 +205,7 @@
                 "Aerospace",
                 "Engineering"
             ],
-            "demo":"https://photos.app.goo.gl/oCmr1LBJdxNVH1DR8",
+            "demo": "https://photos.app.goo.gl/oCmr1LBJdxNVH1DR8",
             "image": "https://lh3.googleusercontent.com/pw/AP1GczNT_HzBmEv-8RcP5aku2V-fwJqTYu9ForcS2QdSHRQxca49DWvpkEeVPKqTu046pKWERVXfZK5gjqNplVJ-icS1sb0XjW33ND_Fb3gF9_sffiVNzIO8L13VpAzBqYJ1g0CcHW-Uahu5pElnl1qjxG87NQ=w2582-h1936-s-no-gm?authuser=0"
         },
         {
@@ -291,14 +296,13 @@
     "work": [
         {
             "name": "QAware",
-            "position": "Working Student Platform Engineering",
-            "summary": "Building and maintaining the backend platform for the Telekom Smart Speaker",
+            "position": "Working Student",
+            "summary": "Software development, DevOps, and automation",
             "startDate": "2020-09",
             "endDate": "2023-09",
             "highlights": [
-                "Getting hands-on experience maintaining a scalable Cloud-Native platform",
-                "Working with code from multiple teams in a variety of programming languages",
-                "Building/improving internal tools, CI/CD pipelines, IaC, observability dashboards and much more"
+                "Developed internal tools, CI/CD pipelines, IaC, and observability dashboards for Telekom smart speaker backend platform",
+                "Automated creation and distribution of internal training certificates, reducing process time to ≈ 10 min"
             ],
             "url": "https://www.qaware.de",
             "location": "Munich, Germany"
@@ -318,7 +322,7 @@
             "startDate": "2018-01",
             "endDate": "2018-02",
             "url": "https://www.dlr.de/en",
-            "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/DLR_Logo.svg/1433px-DLR_Logo.svg.png"
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/DLR_Logo.svg/1433px-DLR_Logo.svg.png"
         }
     ],
     "volunteer": [
@@ -327,8 +331,8 @@
             "url": "https://www.studierendenwerk-muenchen-oberbayern.de/kultur/tutorenprogramm/",
             "position": "Tutor",
             "startDate": "2023-04",
-            "summary": "Organization of student events in my dormitory",
-            "image":"https://static.hochschulhaus-garching.de/gfx/header/hhglogo.png"
+            "summary": "Organized circa 20 social events, fostering community engagement",
+            "image": "https://static.hochschulhaus-garching.de/gfx/header/hhglogo.png"
         },
         {
             "organization": "TUM",
@@ -355,11 +359,18 @@
     ],
     "awards": [
         {
-            "awarder": "Konrad Zuse School of Excellence in Reliable AI",
+            "awarder": "Bavarian Graduate School of Computational Engineering",
+            "date": "2024-04",
+            "summary": "Honors program participant, engaging in a collaborative scientific research project, summer academies, and soft skill seminars",
+            "title": "Honors program participant",
+            "url": "https://www.bgce.de/"
+        },
+        {
+            "awarder": "DAAD/Konrad Zuse School of Excellence in Reliable AI",
             "date": "2023-10",
-            "title": "relAI Scholarship holder",
+            "title": "relAI scholarship holder",
             "url": "https://zuseschoolrelai.de/scholarship-association/",
-            "summary": "I was chosen to be a scholar of the relAI Scholarship, supported by DAAD"
+            "summary": "Received scholarship for outstanding students in the field of reliable AI, serving as student representative"
         },
         {
             "awarder": "Check24",
@@ -372,14 +383,14 @@
             "awarder": "TUM",
             "date": "2021-09",
             "title": "Deutschlandstipendium holder",
-            "summary": "I was chosen to be a scholar of the Deutschlandstipendium.",
+            "summary": "Awarded scholarship for academic excellence and social commitment",
             "image": "https://www.deutschlandstipendium.de/SiteGlobals/Frontend/Images/icons/deutschlandstipendium/logo-deutschlandstipendium.jpg?__blob=normal&v=6"
         },
         {
             "title": "Awardee of the final run of the 38th BWInf",
             "awarder": "Bundeswettbewerb Informatik",
             "date": "2020-09",
-            "summary": "Got awarded in the final run of the 38th Bundeswettbewerb Informatik, a national competition for high school students in Germany",
+            "summary": "Recognized as one of ten awardees in Germany’s prestigious computer science competition",
             "url": "https://www.heise.de/news/Bundeswettbewerb-Informatik-Die-Sieger-der-38-Ausgabe-stehen-fest-4906184.html"
         },
         {
@@ -395,7 +406,7 @@
             "date": "2018-06",
             "url": "https://mo2018.de/teilnehmende",
             "summary": "Participation in the national mathematics olympiad",
-            "image":"https://www.mathematik-olympiaden.de/moev/images/my/logo_202.png"
+            "image": "https://www.mathematik-olympiaden.de/moev/images/my/logo_202.png"
         },
         {
             "title": "Jugend trainiert Mathematik",
