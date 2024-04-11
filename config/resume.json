@@ -31,7 +31,13 @@
             "url": "https://www.cit.tum.de/en/cit/studies/degree-programs/master-computational-science-engineering",
             "startDate": "2023-10",
             "endDate": "2025-10",
-            "score": "1.4 (1.0-5.0 scale)"
+            "score": "1.2 (1.0-5.0 scale)",
+            "courses": [
+                "Machine learning",
+                "Scientific Computing",
+                "Advanced Programming",
+                "Numerical programming"
+            ]
         },
         {
             "institution": "Technical University of Munich",
