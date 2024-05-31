@@ -641,6 +641,13 @@
             "name": "Simulating the Martingale betting strategy",
             "releaseDate": "2024-02",
             "summary": "Imagine you are in a casino with your best friend and your life savings, playing roulette. Your friend has an awesome idea: “Let’s always bet on red, so we win with a 50% chance in each round. If we lose, we double our bet in the next round until we win. Once we win, we have made back all our losses and we start over with our initial bet. We can’t lose!”"
+        },
+        {
+            "url": "https://peteole.github.io/blog/trophy_simulation/index.html",
+            "type": "blog",
+            "name": "Are you in the top 1% of brawl stars players?",
+            "releaseDate": "2024-05",
+            "summary": "Have you ever wondered how good you are at the game Brawl Stars? Are you in the top 1% of players? In this post, we will find out by simulating the game with a million players using Julia."
         }
     ]
 }
