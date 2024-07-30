@@ -650,6 +650,14 @@
             "releaseDate": "2024-05",
             "summary": "Have you ever wondered how good you are at the game Brawl Stars? Are you in the top 1% of players? In this post, we will find out by simulating the game with a million players using Julia.",
             "image": "https://peteole.github.io/blog/trophy_simulation/index_files/figure-markdown_strict/fig-skills-vs-trophies-output-1.svg"
+        },
+        {
+            "url": "https://peteole.github.io/julia-2d-heat-equation-paper/conference_101719.html",
+            "type": "blog",
+            "name": "Solving the 2D Heat Equation with Julia on the GPU",
+            "releaseDate": "2024-07",
+            "summary": "In scientific computation, programming languages must enable high programmer productivity without sacrificing performance. The Julia programming language follows a novel approach utilizing a just-in-time compiler to provide performance comparable to low-level languages like C or C++ in a syntax similar to high-level scripting languages like Python. Its LLVM backend allows compiling Julia code for CPU and GPU. In this work, we explore how the performance of Julia code in different programming styles compares to Numpy, PyTorch, C++, and CUDA-C implementations of a typical structured grid stencil code. We measure throughput similar to or superior to C++ for CPU and GPU computations. The syntax of array-based computations in Julia closely resembles Python’s Numpy and PyTorch but offers significantly better performance. When working with stencil codes, Julia outperforms Python by several orders of magnitude on our test problem.",
+            "image": "https://peteole.github.io/julia-2d-heat-equation-paper/figures/speedup_gpu_implementations.pdf.png"
         }
     ]
 }
